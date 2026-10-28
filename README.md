@@ -20,6 +20,20 @@ A practical, evidence-driven engineering toolkit: clarify decisions, execute spe
 | roadmap | Independent evidence-linked ownership, dependency and status tracking |
 | workflow | Optional routing plus acceptance/release/handoff templates |
 
+## Install a Codex plugin
+
+The pinned remote Git route below was verified on Linux with Codex CLI **0.163.0**. This is an observed version, not a universal or minimum-version guarantee.
+
+```sh
+codex plugin marketplace add https://github.com/hpoenixf/agent-engineering-suite.git --ref 3b515de2f30e25b1e0757243f3ce4d1be19b00b0
+# Choose one module:
+codex plugin add agent-engineering-suite-history@agent-engineering-suite
+# OR the complete suite (do not install both):
+codex plugin add agent-engineering-suite@agent-engineering-suite
+```
+
+[Single-module/full standalone Skill installation and local builds](docs/installation.md) · [Remote installation evidence](docs/verification/native-remote-install.json)
+
 ## Build and inspect
 
 Use Node 26.11.1; no dependency installation is required.

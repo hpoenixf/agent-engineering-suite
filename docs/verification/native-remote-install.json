@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-10-28T09:52:30Z",
+  "codex": "codex-cli 0.163.0",
+  "source": "https://github.com/hpoenixf/agent-engineering-suite.git",
+  "requestedRef": "3b515de2f30e25b1e0757243f3ce4d1be19b00b0",
+  "actualGitHEAD": "3b515de2f30e25b1e0757243f3ce4d1be19b00b0",
+  "events": [
+    {
+      "selection": "history",
+      "installed": true,
+      "listed": true,
+      "fileCount": 11,
+      "allRemoteCanonicalInstalledBytesMatch": true,
+      "removed": true
+    },
+    {
+      "selection": "all",
+      "installed": true,
+      "listed": true,
+      "fileCount": 68,
+      "allRemoteCanonicalInstalledBytesMatch": true,
+      "removed": true
+    }
+  ],
+  "scope": "Isolated synthetic CODEX_HOME, remote Git native marketplace only; no models, account grants or public directory approval."
+}

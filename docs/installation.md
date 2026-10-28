@@ -16,7 +16,19 @@ The installer conservatively rejects known plugin-cache overlaps; supply `--plug
 
 ## Codex plugin
 
-The repository root includes `.agents/plugins/marketplace.json`, pointing to checked-in generated `dist/plugins/*` packages. The build also includes an independently usable marketplace inside `dist/`. On the locally observed Codex CLI 0.163.0, add the local marketplace root, then select a module or the full suite:
+The repository root includes `.agents/plugins/marketplace.json`, pointing to checked-in generated `dist/plugins/*` packages. The build also includes an independently usable marketplace inside `dist/`. The following remote Git route was tested on Linux with Codex CLI **0.163.0**, pinned to `3b515de2f30e25b1e0757243f3ce4d1be19b00b0`. That version is observed, not a minimum-version or universal compatibility promise:
+
+```sh
+codex plugin marketplace add https://github.com/hpoenixf/agent-engineering-suite.git --ref 3b515de2f30e25b1e0757243f3ce4d1be19b00b0
+# Choose one module:
+codex plugin add agent-engineering-suite-history@agent-engineering-suite
+# OR the complete suite (do not install both):
+codex plugin add agent-engineering-suite@agent-engineering-suite
+```
+
+The native clone HEAD matched that exact revision. Both the history-only and full plugin were separately installed, listed, byte-compared with the checkout and canonical build, then removed. See the [sanitized receipt](verification/native-remote-install.json). This does not claim public Plugins Directory approval or successful model execution.
+
+Alternatively, build/inspect a local checkout and add its marketplace root:
 
 ```sh
 codex plugin marketplace add /absolute/path/to/agent-engineering-suite
@@ -27,7 +39,7 @@ codex plugin add agent-engineering-suite@agent-engineering-suite
 
 Use Codex's own plugin remove before replacing overlapping plugin forms; never manually edit/delete its cache. Preserve local edits before changing installations. CLI availability varies; consult `codex plugin --help` and the host's Plugins Directory. No install is implied by building a ZIP or passing our validator.
 
-The generated `dist/` packages are intentionally versioned for Git marketplace distribution; do not hand-edit them. The builder protects changed output and regenerates deterministic artifacts from source skills. The local root marketplace route is tested. A remote Git marketplace command is not claimed verified until the publisher performs readback and remote installation. Public directory submission is separate and not automatic.
+The generated `dist/` packages are intentionally versioned for Git marketplace distribution; do not hand-edit them. The builder protects changed output and regenerates deterministic artifacts from source skills. Both the local root route and the pinned remote Git route above are verified. A later revision needs its own qualification; this receipt does not automatically cover future commits. Public directory submission is separate and not automatic.
 
 ## Local integrity boundary
 
