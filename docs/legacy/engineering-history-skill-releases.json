@@ -1,0 +1,14 @@
+[
+  {
+    "id": 424096817,
+    "tag_name": "v0.1.0",
+    "name": "v0.1.0",
+    "body": "Initial public standalone release under the MIT license.\n\n- Self-contained Agent Skill with bundled scripts, references and license.\n- Zero-dependency Node CLI for candidate recording, event deduplication, configurable timezone, local-link checks and manual-content protection.\n- Fictional offline example, English and Chinese documentation, native tests and GitHub Actions on pinned Node 26.11.1.\n\nMaterial promotion remains a human/model judgment. The CLI checks local structure and protected bytes; it does not certify summary quality.\n",
+    "published_at": "2026-10-26T10:13:53Z",
+    "html_url": "https://github.com/hpoenixf/engineering-history-skill/releases/tag/v0.1.0",
+    "target_commitish": "main",
+    "draft": false,
+    "prerelease": false,
+    "assets": []
+  }
+]

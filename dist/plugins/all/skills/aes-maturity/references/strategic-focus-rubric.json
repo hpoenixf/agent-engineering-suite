@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "scale_id": "aes-generic-strategic-v1",
+  "objective": "Generic prioritization and evidence gaps. Not a task success rate or deployment qualification.",
+  "technology_pillars": [
+    {
+      "id": "deep_async",
+      "title": "Asynchronous work",
+      "weight": 45,
+      "role": "primary_technology",
+      "criteria": [
+        {
+          "id": "deep_async.foreground_background",
+          "title": "Independent foreground and background work",
+          "weight": 25,
+          "evidence": "Record scoped observations supporting independent foreground and background work, including counterexamples, failed cases, unknowns and verification limits."
+        },
+        {
+          "id": "deep_async.durable_lifecycle",
+          "title": "Durable lifecycle",
+          "weight": 25,
+          "evidence": "Record scoped observations supporting durable lifecycle, including counterexamples, failed cases, unknowns and verification limits."
+        },
+        {
+          "id": "deep_async.long_task_completion",
+          "title": "Bounded task completion",
+          "weight": 30,
+          "evidence": "Record scoped observations supporting bounded task completion, including counterexamples, failed cases, unknowns and verification limits."
+        },
+        {
+          "id": "deep_async.user_delivery",
+          "title": "Recoverable output delivery",
+          "weight": 20,
+          "evidence": "Record scoped observations supporting recoverable output delivery, including counterexamples, failed cases, unknowns and verification limits."
+        }
+      ]
+    },
+    {
+      "id": "subagent",
+      "title": "Delegation",
+      "weight": 30,
+      "role": "primary_technology",
+      "criteria": [
+        {
+          "id": "subagent.orchestration",
+          "title": "Bounded delegation",
+          "weight": 20,
+          "evidence": "Record scoped observations supporting bounded delegation, including counterexamples, failed cases, unknowns and verification limits."
+        },
+        {
+          "id": "subagent.authority_resources",
+          "title": "Authority and resource isolation",
+          "weight": 25,
+          "evidence": "Record scoped observations supporting authority and resource isolation, including counterexamples, failed cases, unknowns and verification limits."
+        },
+        {
+          "id": "subagent.recovery",
+          "title": "Failure isolation and recovery",
+          "weight": 20,
+          "evidence": "Record scoped observations supporting failure isolation and recovery, including counterexamples, failed cases, unknowns and verification limits."
+        },
+        {
+          "id": "subagent.effectiveness",
+          "title": "Comparative delegation value",
+          "weight": 35,
+          "evidence": "Record scoped observations supporting comparative delegation value, including counterexamples, failed cases, unknowns and verification limits."
+        }
+      ]
+    },
+    {
+      "id": "data_trust",
+      "title": "Data trust",
+      "weight": 25,
+      "role": "primary_technology",
+      "criteria": [
+        {
+          "id": "data_trust.deterministic_authority",
+          "title": "Deterministic facts versus suggested actions",
+          "weight": 30,
+          "evidence": "Record scoped observations supporting deterministic facts versus suggested actions, including counterexamples, failed cases, unknowns and verification limits."
+        },
+        {
+          "id": "data_trust.authorization",
+          "title": "Data authorization",
+          "weight": 25,
+          "evidence": "Record scoped observations supporting data authorization, including counterexamples, failed cases, unknowns and verification limits."
+        },
+        {
+          "id": "data_trust.provenance_quality",
+          "title": "Auditable provenance",
+          "weight": 30,
+          "evidence": "Record scoped observations supporting auditable provenance, including counterexamples, failed cases, unknowns and verification limits."
+        },
+        {
+          "id": "data_trust.human_approval",
+          "title": "Explicit human approval",
+          "weight": 15,
+          "evidence": "Record scoped observations supporting explicit human approval, including counterexamples, failed cases, unknowns and verification limits."
+        }
+      ]
+    }
+  ],
+  "business_value_companion": {
+    "id": "user_value",
+    "title": "User value",
+    "included_in_technical_total": false,
+    "role": "continuous_value_driver",
+    "criteria": [
+      {
+        "id": "user_value.accepted_delivery",
+        "title": "Accepted deliverables",
+        "weight": 30,
+        "evidence": "Record scoped observations supporting accepted deliverables, including counterexamples, failed cases, unknowns and verification limits."
+      },
+      {
+        "id": "user_value.decision_help",
+        "title": "Decision usefulness",
+        "weight": 25,
+        "evidence": "Record scoped observations supporting decision usefulness, including counterexamples, failed cases, unknowns and verification limits."
+      },
+      {
+        "id": "user_value.longitudinal",
+        "title": "Continuity over time",
+        "weight": 25,
+        "evidence": "Record scoped observations supporting continuity over time, including counterexamples, failed cases, unknowns and verification limits."
+      },
+      {
+        "id": "user_value.friction",
+        "title": "User effort",
+        "weight": 20,
+        "evidence": "Record scoped observations supporting user effort, including counterexamples, failed cases, unknowns and verification limits."
+      }
+    ]
+  },
+  "unit": "0.0-10.0 one decimal per criterion",
+  "rounding": "Decimal ROUND_HALF_UP",
+  "technology_total": "SUM(pillar_score * pillar.weight) / 100; pillar_score = SUM(criterion_score * criterion.weight) / 100",
+  "business_total": "SUM(user_value criterion_score * weight) / 100; NOT averaged into technical_total",
+  "validation": {
+    "per_pillar_criteria_weight": 100,
+    "technical_pillar_weight": 100,
+    "business_criteria_weight": 100,
+    "no_changes_to_existing_ids_weights": true
+  },
+  "evidence_stages": [
+    "spec",
+    "code",
+    "provider_free",
+    "system_integration",
+    "real_model",
+    "actual_artifact",
+    "independent_review",
+    "user_accepted",
+    "repeated"
+  ],
+  "missing_data": "unknown / not_reviewed; never fabricate zero task failures or cost. Conservative judgement must disclose low confidence and incomplete denominators."
+}

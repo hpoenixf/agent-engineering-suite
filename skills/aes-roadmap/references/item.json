@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"BL-001","title":"Demonstrate restart recovery","status":"candidate","owner":"project-maintainer","scope":"synthetic local example","dependsOn":[],"acceptance":"Restart preserves identity and does not duplicate an effect","evidence":[],"nextAction":"Define representative failure fixture","history":[],"maturityReference":null}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-engineering-suite-workflow",
+  "version": "0.1.0",
+  "description": "Choose a useful next engineering workflow from installed suite modules, preserving independent module use and explicit evidence handoffs.",
+  "author": {
+    "name": "hpoenixf"
+  },
+  "license": "MIT"
+}

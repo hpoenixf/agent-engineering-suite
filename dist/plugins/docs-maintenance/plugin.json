@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-engineering-suite-docs-maintenance",
+  "version": "0.1.0",
+  "description": "Synchronize canonical engineering documentation with current source evidence, identify obsolete material, and plan safe cleanup without treating age as proof of redundancy.",
+  "author": {
+    "name": "hpoenixf"
+  },
+  "license": "MIT"
+}

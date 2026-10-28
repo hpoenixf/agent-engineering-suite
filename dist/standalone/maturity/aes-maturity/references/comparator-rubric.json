@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "scale_id": "aes-generic-capability-reference-v1",
+  "version": "1.0.0",
+  "disclaimer": "Generic design reference, not a competitor measurement or a historical project baseline. Do not average independent axes.",
+  "axes": [
+    {
+      "id": "research_workflow",
+      "title": "Research workflow",
+      "description": "Generic evidence-grounded evaluation of research workflow",
+      "reference": {
+        "kind": "generic_design_rubric",
+        "scope": "User-selected scope; no competitor rating or external reference claim."
+      },
+      "criteria": [
+        {
+          "id": "research.source_coverage",
+          "title": "Source availability",
+          "weight": 14,
+          "task_relevance": "high",
+          "cost": "M"
+        },
+        {
+          "id": "research.search_retrieval",
+          "title": "Search and retrieval",
+          "weight": 10,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "research.pdf_visual",
+          "title": "Document and visual understanding",
+          "weight": 8,
+          "task_relevance": "medium",
+          "cost": "M"
+        },
+        {
+          "id": "research.methodology",
+          "title": "Reproducible research methods",
+          "weight": 12,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "research.relationships",
+          "title": "Relationship and uncertainty analysis",
+          "weight": 11,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "research.autonomous_synthesis",
+          "title": "Multi-step synthesis",
+          "weight": 14,
+          "task_relevance": "high",
+          "cost": "M"
+        },
+        {
+          "id": "research.numerical_claims",
+          "title": "Numerical and claim verification",
+          "weight": 12,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "research.reports",
+          "title": "Useful report delivery",
+          "weight": 10,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "research.longitudinal",
+          "title": "Longitudinal continuity",
+          "weight": 9,
+          "task_relevance": "high",
+          "cost": "M"
+        }
+      ]
+    },
+    {
+      "id": "agent_runtime",
+      "title": "Agent runtime",
+      "description": "Generic evidence-grounded evaluation of agent runtime",
+      "reference": {
+        "kind": "generic_design_rubric",
+        "scope": "User-selected scope; no competitor rating or external reference claim."
+      },
+      "criteria": [
+        {
+          "id": "runtime.agent_loop",
+          "title": "Agent control loop",
+          "weight": 13,
+          "task_relevance": "medium",
+          "cost": "S"
+        },
+        {
+          "id": "runtime.tools_mcp",
+          "title": "Authorized tool routing",
+          "weight": 13,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "runtime.hooks_permissions",
+          "title": "Lifecycle extension points",
+          "weight": 11,
+          "task_relevance": "low",
+          "cost": "S"
+        },
+        {
+          "id": "runtime.subagents",
+          "title": "Bounded delegation",
+          "weight": 11,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "runtime.sessions_recovery",
+          "title": "Session recovery",
+          "weight": 12,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "runtime.context",
+          "title": "Context management",
+          "weight": 11,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "runtime.stream_delivery",
+          "title": "Structured and streaming output",
+          "weight": 8,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "runtime.skills_plugins",
+          "title": "Portable skill packaging",
+          "weight": 8,
+          "task_relevance": "medium",
+          "cost": "S"
+        },
+        {
+          "id": "runtime.usage_observability",
+          "title": "Usage and budget observability",
+          "weight": 6,
+          "task_relevance": "medium",
+          "cost": "S"
+        },
+        {
+          "id": "runtime.embed_dx",
+          "title": "Embeddable interfaces",
+          "weight": 7,
+          "task_relevance": "low",
+          "cost": "L"
+        }
+      ]
+    },
+    {
+      "id": "extension_design",
+      "title": "Extension design",
+      "description": "Generic evidence-grounded evaluation of extension design",
+      "reference": {
+        "kind": "generic_design_rubric",
+        "scope": "User-selected scope; no competitor rating or external reference claim."
+      },
+      "criteria": [
+        {
+          "id": "extension.minimal_core",
+          "title": "Small cohesive core",
+          "weight": 15,
+          "task_relevance": "medium",
+          "cost": "S"
+        },
+        {
+          "id": "extension.extension_hooks",
+          "title": "Explicit extension lifecycle",
+          "weight": 17,
+          "task_relevance": "medium",
+          "cost": "S"
+        },
+        {
+          "id": "extension.model_portability",
+          "title": "Provider adapters",
+          "weight": 11,
+          "task_relevance": "medium",
+          "cost": "S"
+        },
+        {
+          "id": "extension.skills_packages",
+          "title": "Reusable packages",
+          "weight": 12,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "extension.session_branching",
+          "title": "Session branching",
+          "weight": 10,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "extension.context_memory",
+          "title": "Reusable results",
+          "weight": 11,
+          "task_relevance": "high",
+          "cost": "S"
+        },
+        {
+          "id": "extension.interactivity",
+          "title": "Interactive feedback",
+          "weight": 8,
+          "task_relevance": "medium",
+          "cost": "M"
+        },
+        {
+          "id": "extension.sdk_api",
+          "title": "Programmable interfaces",
+          "weight": 9,
+          "task_relevance": "low",
+          "cost": "M"
+        },
+        {
+          "id": "extension.maintainability",
+          "title": "Maintainable change boundaries",
+          "weight": 7,
+          "task_relevance": "high",
+          "cost": "S"
+        }
+      ]
+    }
+  ],
+  "proof_maturity_points": {
+    "design": 2.0,
+    "implemented": 4.5,
+    "integrated": 6.5,
+    "real_partial": 7.0,
+    "real_verified": 8.2,
+    "repeat_verified": 9.2
+  },
+  "gap_relevance": [
+    "high",
+    "medium",
+    "low"
+  ],
+  "effort_order": [
+    "S",
+    "M",
+    "L"
+  ]
+}

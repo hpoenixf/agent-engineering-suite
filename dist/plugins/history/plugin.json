@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-engineering-suite-history",
+  "version": "0.1.0",
+  "description": "Record reusable engineering decisions, condense daily development history, or summarize a topic's evolution with traceable evidence and protected manual notes.",
+  "author": {
+    "name": "hpoenixf"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "agent-engineering-suite-architecture",
+  "version": "0.1.0",
+  "description": "Standalone codebase architecture review. Find deepening opportunities plus misplaced ownership, duplicate interfaces, unnecessary pass-through layers, test-only production seams, compatibility shadows, misleading test seams, recent-change hotspots, and unsupported contract promises; present a visual HTML report, then guide the selected refactor through a decision-tree interview and alternative interface design. Use for architecture review, simplification, locality, testability, AI-navigability, seam placement, or \"why is this layer here?\" investigations.",
+  "author": {
+    "name": "hpoenixf"
+  },
+  "license": "MIT",
+  "skills": "./skills/"
+}

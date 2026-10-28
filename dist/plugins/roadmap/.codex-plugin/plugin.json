@@ -1,0 +1,10 @@
+{
+  "name": "agent-engineering-suite-roadmap",
+  "version": "0.1.0",
+  "description": "Track evidence-backed roadmap items, dependencies, ownership and next acceptance steps without converting maturity scores or unchecked tasks into completion.",
+  "author": {
+    "name": "hpoenixf"
+  },
+  "license": "MIT",
+  "skills": "./skills/"
+}

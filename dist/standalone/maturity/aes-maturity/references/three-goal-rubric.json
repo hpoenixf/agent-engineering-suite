@@ -1,0 +1,199 @@
+{
+  "schema_version": 2,
+  "version": "1.0.0",
+  "scale_id": "aes-generic-three-goal-v1",
+  "name": "Generic engineering, data governance and user value",
+  "scoring_scope": "Evidence-supported capability in a user-declared scope, not deployment approval, legal certification or measured task success.",
+  "goals": [
+    {
+      "id": "production_agent",
+      "title": "Engineering reliability",
+      "criteria": [
+        {
+          "id": "production_agent.auth_boundaries",
+          "title": "Authorization boundaries",
+          "weight": 15,
+          "proof": "Provide scoped positive and negative observations for authorization boundaries; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "production_agent.durable_recovery",
+          "title": "Durable recovery and idempotency",
+          "weight": 15,
+          "proof": "Provide scoped positive and negative observations for durable recovery and idempotency; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "production_agent.resource_time",
+          "title": "Bounded resources and cancellation",
+          "weight": 12,
+          "proof": "Provide scoped positive and negative observations for bounded resources and cancellation; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "production_agent.tool_isolation",
+          "title": "Tool isolation and adversarial inputs",
+          "weight": 10,
+          "proof": "Provide scoped positive and negative observations for tool isolation and adversarial inputs; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "production_agent.observability_economics",
+          "title": "Observability and per-task cost",
+          "weight": 12,
+          "proof": "Provide scoped positive and negative observations for observability and per-task cost; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "production_agent.delivery",
+          "title": "Accessible output delivery",
+          "weight": 12,
+          "proof": "Provide scoped positive and negative observations for accessible output delivery; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "production_agent.operability",
+          "title": "Installation and operational readiness",
+          "weight": 12,
+          "proof": "Provide scoped positive and negative observations for installation and operational readiness; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "production_agent.repeatability",
+          "title": "Repeated representative tasks",
+          "weight": 12,
+          "proof": "Provide scoped positive and negative observations for repeated representative tasks; identify revision, method, outcome, limitations and independent review where applicable."
+        }
+      ]
+    },
+    {
+      "id": "data_controls",
+      "title": "Data governance",
+      "criteria": [
+        {
+          "id": "data_controls.authority",
+          "title": "Source-of-truth and effect separation",
+          "weight": 16,
+          "proof": "Provide scoped positive and negative observations for source-of-truth and effect separation; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "data_controls.access",
+          "title": "Data authorization and privacy",
+          "weight": 14,
+          "proof": "Provide scoped positive and negative observations for data authorization and privacy; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "data_controls.asof",
+          "title": "Temporal validity and units",
+          "weight": 14,
+          "proof": "Provide scoped positive and negative observations for temporal validity and units; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "data_controls.numerics",
+          "title": "Independent numerical recalculation",
+          "weight": 16,
+          "proof": "Provide scoped positive and negative observations for independent numerical recalculation; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "data_controls.provenance",
+          "title": "Claim provenance",
+          "weight": 14,
+          "proof": "Provide scoped positive and negative observations for claim provenance; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "data_controls.advice",
+          "title": "Context-specific risk communication",
+          "weight": 12,
+          "proof": "Provide scoped positive and negative observations for context-specific risk communication; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "data_controls.recordkeeping",
+          "title": "Audit, correction and deletion",
+          "weight": 8,
+          "proof": "Provide scoped positive and negative observations for audit, correction and deletion; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "data_controls.regulatory_review",
+          "title": "Applicable domain review",
+          "weight": 6,
+          "proof": "Provide scoped positive and negative observations for applicable domain review; identify revision, method, outcome, limitations and independent review where applicable."
+        }
+      ]
+    },
+    {
+      "id": "user_value",
+      "title": "User value",
+      "criteria": [
+        {
+          "id": "user_value.input_quality",
+          "title": "Current user input quality",
+          "weight": 14,
+          "proof": "Provide scoped positive and negative observations for current user input quality; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "user_value.deep_report",
+          "title": "Useful synthesis",
+          "weight": 14,
+          "proof": "Provide scoped positive and negative observations for useful synthesis; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "user_value.exposure",
+          "title": "Relationships and uncertainty",
+          "weight": 12,
+          "proof": "Provide scoped positive and negative observations for relationships and uncertainty; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "user_value.decision",
+          "title": "Decision alternatives",
+          "weight": 12,
+          "proof": "Provide scoped positive and negative observations for decision alternatives; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "user_value.periodic_report",
+          "title": "Readable periodic reports",
+          "weight": 14,
+          "proof": "Provide scoped positive and negative observations for readable periodic reports; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "user_value.follow_up",
+          "title": "Longitudinal follow-up",
+          "weight": 12,
+          "proof": "Provide scoped positive and negative observations for longitudinal follow-up; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "user_value.unassisted",
+          "title": "Unassisted completion",
+          "weight": 12,
+          "proof": "Provide scoped positive and negative observations for unassisted completion; identify revision, method, outcome, limitations and independent review where applicable."
+        },
+        {
+          "id": "user_value.ux",
+          "title": "Usability and user acceptance",
+          "weight": 10,
+          "proof": "Provide scoped positive and negative observations for usability and user acceptance; identify revision, method, outcome, limitations and independent review where applicable."
+        }
+      ]
+    }
+  ],
+  "stages": [
+    "spec",
+    "code",
+    "integrated",
+    "real_task",
+    "human_review",
+    "repeated"
+  ],
+  "evidence_levels": [
+    "design",
+    "source",
+    "offline",
+    "system_integration",
+    "real_model",
+    "actual_artifact",
+    "human_review",
+    "longitudinal",
+    "regulatory_review",
+    "independent_review"
+  ],
+  "outcomes": [
+    "pass",
+    "partial",
+    "failed",
+    "blocked",
+    "not_run",
+    "unknown"
+  ]
+}

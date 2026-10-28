@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-engineering-suite",
+  "version": "0.1.0",
+  "description": "Evidence-driven engineering workflows, independently installable as skills or Codex plugins.",
+  "author": {
+    "name": "hpoenixf"
+  },
+  "license": "MIT"
+}

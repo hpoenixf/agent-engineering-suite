@@ -1,0 +1,10 @@
+{
+  "name": "agent-engineering-suite-grilling",
+  "version": "0.1.0",
+  "description": "Stress-test a plan, decision, or idea through a focused design-tree interview. Resolve obvious choices automatically and ask the user only about consequential tradeoffs, preferences, and ambiguous decisions.",
+  "author": {
+    "name": "hpoenixf"
+  },
+  "license": "MIT",
+  "skills": "./skills/"
+}

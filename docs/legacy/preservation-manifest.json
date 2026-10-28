@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-28T08:44:04.635586+00:00",
+  "purpose": "Historical public-source preservation; snapshots are not current suite runtime",
+  "repositories": [
+    {
+      "repository": "hpoenixf/openspec-evidence-kit",
+      "refs": {
+        "refs/heads/docs/link-technical-walkthrough-20261026": "758faac4e5576c7d47416b0f8b8ff2ccea9e66a1",
+        "refs/heads/main": "db6ac2f43cc0319fa0f10b4f73d67521d5209c88",
+        "refs/pull/1/head": "758faac4e5576c7d47416b0f8b8ff2ccea9e66a1",
+        "refs/tags/v0.1.0": "2285dbc5436cafde18c8f1d18212878ba5c7a414"
+      },
+      "head": "db6ac2f43cc0319fa0f10b4f73d67521d5209c88",
+      "tree": "736ecfffaa980fdd65a7c513f2c56fffa1e884e1",
+      "objectCount": 51,
+      "commitCount": 6,
+      "bundle": "openspec-evidence-kit.bundle",
+      "bundleBytes": 19367,
+      "sha256": "f5b126dca5e8e2c3300ba8e9abc32778222b4c12bf2111feae59fad93fc0a6fd",
+      "fsck": "passed",
+      "bundleVerify": "passed;complete history;no prerequisites",
+      "source": "direct public Git mirror, no reconstruction"
+    },
+    {
+      "repository": "hpoenixf/engineering-history-skill",
+      "refs": {
+        "refs/heads/docs/link-technical-walkthrough-20261026": "31185a46cdf6c8597f4dc31a10ef9ac01423c306",
+        "refs/heads/main": "c4a24b46fac0b494e878cb6bc4bde225faa525a6",
+        "refs/pull/1/head": "31185a46cdf6c8597f4dc31a10ef9ac01423c306",
+        "refs/tags/v0.1.0": "2d89fbddb0401d2426f1624c6618fe8b4bef8466"
+      },
+      "head": "c4a24b46fac0b494e878cb6bc4bde225faa525a6",
+      "tree": "be394cc8b392bb1b2ac9ca26d2f93a387f548fc7",
+      "objectCount": 52,
+      "commitCount": 6,
+      "bundle": "engineering-history-skill.bundle",
+      "bundleBytes": 19314,
+      "sha256": "5d12fce20b089e9a08818b924146c7d5b1fac66040305eecc5daa6e9fdad03fb",
+      "fsck": "passed",
+      "bundleVerify": "passed;complete history;no prerequisites",
+      "source": "direct public Git mirror, no reconstruction"
+    }
+  ]
+}

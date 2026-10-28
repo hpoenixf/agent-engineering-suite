@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "name": "agent-engineering-suite",
+  "version": "0.1.0",
+  "description": "Evidence-driven engineering workflows, independently installable as skills or Codex plugins.",
+  "modules": [
+    {
+      "id": "spec-flow",
+      "skill": "aes-spec-flow",
+      "description": "Plan, implement, and verify an evidence-linked specification using a self-contained structural evidence toolkit. Use for spec lifecycle and provenance checks, not as proof of semantic acceptance.",
+      "dependencies": []
+    },
+    {
+      "id": "history",
+      "skill": "aes-history",
+      "description": "Record reusable engineering decisions, condense daily development history, or summarize a topic's evolution with traceable evidence and protected manual notes.",
+      "dependencies": []
+    },
+    {
+      "id": "architecture",
+      "skill": "aes-architecture",
+      "description": "Standalone codebase architecture review. Find deepening opportunities plus misplaced ownership, duplicate interfaces, unnecessary pass-through layers, test-only production seams, compatibility shadows, misleading test seams, recent-change hotspots, and unsupported contract promises; present a visual HTML report, then guide the selected refactor through a decision-tree interview and alternative interface design. Use for architecture review, simplification, locality, testability, AI-navigability, seam placement, or \"why is this layer here?\" investigations.",
+      "dependencies": []
+    },
+    {
+      "id": "grilling",
+      "skill": "aes-grilling",
+      "description": "Stress-test a plan, decision, or idea through a focused design-tree interview. Resolve obvious choices automatically and ask the user only about consequential tradeoffs, preferences, and ambiguous decisions.",
+      "dependencies": []
+    },
+    {
+      "id": "code-review",
+      "skill": "aes-code-review",
+      "description": "Standalone two-axis code review. Review changes since a fixed point along Standards and Spec axes, discover the originating issue/spec without external setup files, apply repository standards plus a built-in code-smell baseline, and report both axes separately. Use for branch, PR, WIP, or \"review since X\" requests.",
+      "dependencies": []
+    },
+    {
+      "id": "docs-maintenance",
+      "skill": "aes-docs-maintenance",
+      "description": "Synchronize canonical engineering documentation with current source evidence, identify obsolete material, and plan safe cleanup without treating age as proof of redundancy.",
+      "dependencies": []
+    },
+    {
+      "id": "maturity",
+      "skill": "aes-maturity",
+      "description": "Assess project maturity with a versioned rubric and immutable evidence snapshots, separating implementation, verified mechanisms, and user outcomes. Does not manage roadmap state or authorize releases.",
+      "dependencies": []
+    },
+    {
+      "id": "roadmap",
+      "skill": "aes-roadmap",
+      "description": "Track evidence-backed roadmap items, dependencies, ownership and next acceptance steps without converting maturity scores or unchecked tasks into completion.",
+      "dependencies": []
+    },
+    {
+      "id": "workflow",
+      "skill": "aes-workflow",
+      "description": "Choose a useful next engineering workflow from installed suite modules, preserving independent module use and explicit evidence handoffs.",
+      "dependencies": []
+    }
+  ]
+}

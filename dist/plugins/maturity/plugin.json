@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-engineering-suite-maturity",
+  "version": "0.1.0",
+  "description": "Assess project maturity with a versioned rubric and immutable evidence snapshots, separating implementation, verified mechanisms, and user outcomes. Does not manage roadmap state or authorize releases.",
+  "author": {
+    "name": "hpoenixf"
+  },
+  "license": "MIT"
+}

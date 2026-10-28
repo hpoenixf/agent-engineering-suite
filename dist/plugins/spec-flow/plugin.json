@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-engineering-suite-spec-flow",
+  "version": "0.1.0",
+  "description": "Plan, implement, and verify an evidence-linked specification using a self-contained structural evidence toolkit. Use for spec lifecycle and provenance checks, not as proof of semantic acceptance.",
+  "author": {
+    "name": "hpoenixf"
+  },
+  "license": "MIT"
+}

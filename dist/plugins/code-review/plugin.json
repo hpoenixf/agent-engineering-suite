@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-engineering-suite-code-review",
+  "version": "0.1.0",
+  "description": "Standalone two-axis code review. Review changes since a fixed point along Standards and Spec axes, discover the originating issue/spec without external setup files, apply repository standards plus a built-in code-smell baseline, and report both axes separately. Use for branch, PR, WIP, or \"review since X\" requests.",
+  "author": {
+    "name": "hpoenixf"
+  },
+  "license": "MIT"
+}
