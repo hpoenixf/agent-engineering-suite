@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md)
 
+[Read the complete introduction](https://hpoenixf.com/eff-agent-article/en/articles/agent-engineering-suite) · [中文介绍](https://hpoenixf.com/eff-agent-article/articles/agent-engineering-suite)
+
 A practical, evidence-driven engineering toolkit: clarify decisions, execute specifications, preserve history, deepen architecture, review changes, maintain docs, assess maturity and track a roadmap.
 
 **One source, two forms. Install one module or the complete suite as standalone Skills or Codex plugins.** Modules do not require the workflow router or private services.

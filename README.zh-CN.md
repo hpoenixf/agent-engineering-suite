@@ -2,6 +2,8 @@
 
 [English](README.md)
 
+[阅读完整介绍](https://hpoenixf.com/eff-agent-article/articles/agent-engineering-suite) · [English introduction](https://hpoenixf.com/eff-agent-article/en/articles/agent-engineering-suite)
+
 把澄清决策、Spec 推进、History、架构深化、代码审查、文档维护、成熟度评分与 Roadmap 跟踪放在一个可复用的研发套件里。
 
 **同一份核心源码，两种交付形式；Skill 与 Codex 插件都支持单模块和整套安装。** 单模块不依赖编排入口，不绑定私人账号。
